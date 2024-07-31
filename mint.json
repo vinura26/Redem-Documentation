@@ -94,5 +94,8 @@
   "versions": ["1.0", "2.0"],
   "footerSocials": {
     "linkedin": "https://www.linkedin.com/company/redem-technologies/"
+  },
+  "integrations": {
+    "mintlify": "66a91433638881ee8edffaa5"
   }
 }
