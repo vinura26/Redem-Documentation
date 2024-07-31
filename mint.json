@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "ReDem Documentation",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
+    "primary": "#00a181",
     "light": "#07C983",
     "dark": "#0D9373",
     "anchors": {
@@ -18,34 +18,33 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@redem.io"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "ReDem Application",
+    "url": "https://app.redem.io/"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "API Integration",
+      "url": "api-integration"
+    },
+    {
+      "name": "Releases",
+      "url": "releases"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Website",
+      "icon": "globe",
+      "url": "https://redem.io/"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://redem.io/blog/"
     }
   ],
   "navigation": [
@@ -69,23 +68,31 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Gettting Started",
       "pages": [
-        "api-reference/introduction"
+        "api-integration/introduction",
+        "api-integration/account-setup",
+        "api-integration/quickstart"
       ]
     },
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-integration/endpoint/get",
+        "api-integration/endpoint/create",
+        "api-integration/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Releases",
+      "pages": [
+        "releases/product-changelogs",
+        "releases/api-changelogs"
       ]
     }
   ],
+  "versions": ["1.0", "2.0"],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "linkedin": "https://www.linkedin.com/company/redem-technologies/"
   }
 }
